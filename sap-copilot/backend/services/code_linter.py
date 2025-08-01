@@ -1,4 +1,4 @@
-from pylint.lint import Run
+''' from pylint.lint import Run
 from io import StringIO
 import tempfile
 import os
@@ -26,3 +26,5 @@ def analyze_multiple_files(files: dict) -> str:
         except Exception as e:
             reports.append(f"###{filename}:\nError during analysis:{str(e)}")
     return "\n\n".join(reports)
+
+    '''
